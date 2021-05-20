@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "stable"
-install: yarn add
+install: npm install
 services: -mongodb
-script: yarn test
-after_success: yarn run coverage
+script: npm test
+after_success: npm run coverage
